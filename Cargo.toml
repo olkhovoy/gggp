@@ -1,0 +1,15 @@
+[package]
+name = "gggp-core-py"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+repository = "https://github.com/olkhovoy/gggp"
+description = "Minimal GGGP core Python extension"
+
+[lib]
+name = "gggp_core_py"
+crate-type = ["cdylib"]
+
+[dependencies]
+pyo3 = { version = "0.22", features = ["extension-module"] }
+
