@@ -3,7 +3,7 @@ requires = ["maturin>=1.7,<2.0"]
 build-backend = "maturin"
 
 [project]
-name = "olkhovoy-gggp"
+name = "gggp"
 description = "Rust-powered GGGP core with Python bindings"
 readme = "README.md"
 requires-python = ">=3.9"
@@ -22,4 +22,3 @@ bindings = "pyo3"
 python-source = "python"
 module-name = "gggp._core"
 features = ["pyo3/extension-module"]
-
